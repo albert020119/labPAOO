@@ -4,7 +4,7 @@ set(myproject "ProjectLab")
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(ProjectLab main.cpp lib/car.h lib/animal.h lib/dog.h)
+add_executable(ProjectLab main.cpp lib/car.h lib/animal.h lib/dog.h lib/animal.h lib/cat.h lib/music_instrument.h lib/guitar.h)
 target_include_directories(ProjectLab PUBLIC "${PROJECT_BINARY_DIR}")
 target_include_directories(ProjectLab PRIVATE "${CMAKE_SOURCE_DIR}/lib")
 include_directories(SYSTEM)

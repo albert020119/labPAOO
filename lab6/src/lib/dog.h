@@ -4,7 +4,7 @@ class Dog : public Animal{
 		}; 
 		
 		void makeNoise() override{
-			std::cout << "woof"; 
+			std::cout << "woof \n"; 
 		};
 		
 		bool isDog() override{

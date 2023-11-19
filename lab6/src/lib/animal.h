@@ -11,6 +11,8 @@ class Animal{
 		virtual void makeNoise(){
 		
 		};
+
+
 		virtual bool isDog(){
 			return false;
 		}; 

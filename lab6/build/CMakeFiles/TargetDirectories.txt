@@ -1,3 +1,0 @@
-/home/endre/Documents/PAOO/lab6/build/CMakeFiles/ProjectLab.dir
-/home/endre/Documents/PAOO/lab6/build/CMakeFiles/edit_cache.dir
-/home/endre/Documents/PAOO/lab6/build/CMakeFiles/rebuild_cache.dir

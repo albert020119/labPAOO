@@ -28,5 +28,12 @@ public:
 		this->cp = car.cp; 
 		strcpy(this->model , car.model); 
 	} ;
+
+	Car& operator=(Car&& other_animal){
+		this->year = other_animal.year; 
+		this->cp = other_animal.cp; 
+		strcpy(this->model , other_animal.model);
+		return *this; 
+	}
 };
 
